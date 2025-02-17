@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashant Bhor</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .hero {
+            background: url('https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') center/cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .social-icons a {
+            color: black;
+            font-size: 24px;
+            transition: color 0.3s;
+        }
+        .social-icons a:hover {
+            color: #17a2b8;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Prashant Bhor</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="technical_skills.html" target="_blank">Technical Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Web Developer | Designer | Freelancer</p>
+        </div>
+    </header>
+
+    <section id="about" class="container my-5">
+        <h2 class="text-center">About Me</h2>
+        <p class="text-center">I am a passionate web developer skilled in front-end and back-end technologies.</p>
+    </section>
+
+    <section id="projects" class="container my-5">
+        <h2 class="text-center">Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/8640437/pexels-photo-8640437.jpeg?auto=compress&cs=tinysrgb&w=600/400x300" class="card-img-top" alt="Pet Shop Management System">
+                    <div class="card-body">
+                        <h5 class="card-title">Pet Shop Management System</h5>
+                        <p class="card-text">A comprehensive system designed to streamline pet shop operations, handling inventory, sales, customer relations, and employee management.</p>
+                        <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, PHP, MySQL</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg?auto=compress&cs=tinysrgb&w=600/400x300" class="card-img-top" alt="Student Record Management System">
+                    <div class="card-body">
+                        <h5 class="card-title">Student Record Management System</h5>
+                        <p class="card-text">A system to streamline student information management in educational institutions.</p>
+                        <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, PHP, MySQL</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/821754/pexels-photo-821754.jpeg?auto=compress&cs=tinysrgb&w=600/400x300" class="card-img-top" alt="Contact Application">
+                    <div class="card-body">
+                        <h5 class="card-title">Contact Application</h5>
+                        <p class="card-text">A Contact Management Application to efficiently organize and retrieve personal and professional contacts.</p>
+                        <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, Java, Android Programming</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container my-5 text-center">
+        <h2>Contact Me</h2>
+        <p>Email: bhorp247@gmail.com</p>
+        <p>Phone: 7666975092</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/prashant-bhor-8a3a2b236/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/_prashant__bhor_/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/prashantvijaybhor" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        &copy; 2025 My Portfolio. All rights reserved.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
